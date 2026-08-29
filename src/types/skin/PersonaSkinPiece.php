@@ -16,6 +16,36 @@ namespace pocketmine\network\mcpe\protocol\types\skin;
 
 final class PersonaSkinPiece{
 
+	public const PIECE_TYPE_UNKNOWN = 0;
+	public const PIECE_TYPE_SKELETON = 1;
+	public const PIECE_TYPE_BODY = 2;
+	public const PIECE_TYPE_SKIN = 3;
+	public const PIECE_TYPE_BOTTOM = 4;
+	public const PIECE_TYPE_FEET = 5;
+	public const PIECE_TYPE_DRESS = 6;
+	public const PIECE_TYPE_TOP = 7;
+	public const PIECE_TYPE_HIGH_PANTS = 8;
+	public const PIECE_TYPE_HANDS = 9;
+	public const PIECE_TYPE_OUTERWEAR = 10;
+	public const PIECE_TYPE_FACIAL_HAIR = 11;
+	public const PIECE_TYPE_MOUTH = 12;
+	public const PIECE_TYPE_EYES = 13;
+	public const PIECE_TYPE_HAIR = 14;
+	public const PIECE_TYPE_HOOD = 15;
+	public const PIECE_TYPE_BACK = 16;
+	public const PIECE_TYPE_FACE_ACCESSORY = 17;
+	public const PIECE_TYPE_HEAD = 18;
+	public const PIECE_TYPE_LEGS = 19;
+	public const PIECE_TYPE_LEFT_LEG = 20;
+	public const PIECE_TYPE_RIGHT_LEG = 21;
+	public const PIECE_TYPE_ARMS = 22;
+	public const PIECE_TYPE_LEFT_ARM = 23;
+	public const PIECE_TYPE_RIGHT_ARM = 24;
+	public const PIECE_TYPE_CAPES = 25;
+	public const PIECE_TYPE_CLASSIC_SKIN = 26;
+	public const PIECE_TYPE_EMOTE = 27;
+	public const PIECE_TYPE_UNSUPPORTED = 28;
+
 	public const PIECE_TYPE_PERSONA_BODY = "persona_body";
 	public const PIECE_TYPE_PERSONA_BOTTOM = "persona_bottom";
 	public const PIECE_TYPE_PERSONA_EYES = "persona_eyes";
